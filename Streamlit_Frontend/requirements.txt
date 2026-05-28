@@ -1,6 +1,6 @@
 streamlit
 tensorflow-cpu==2.16.1
 numpy==1.26.4
-nltk==3.8.1
+nltk
 h5py==3.10.0
 protobuf==4.25.3
