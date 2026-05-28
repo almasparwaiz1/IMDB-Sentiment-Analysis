@@ -13,6 +13,10 @@ A professional AI-powered **Movie Review Sentiment Analysis Web App** built with
 * Confidence score visualization
 * Fully responsive interface
 
+## Live Demo
+
+https://imdb-sentiment-analysis-appi.streamlit.app/
+
 ## Tech Stack
 
 * Python
