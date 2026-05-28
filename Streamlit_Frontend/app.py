@@ -1,32 +1,5 @@
-import os
-import sys
-import subprocess
-
-# Bypass pip's dependency resolver by installing a direct pre-compiled wheel
-try:
-    import tensorflow as tf
-except ImportError:
-    # Direct URL to a stable, lightweight Linux wheel for Python 3.10/3.11
-    wheel_url = "https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow_cpu-2.11.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
-    
-    try:
-        subprocess.check_call([
-            sys.executable, "-m", "pip", "install", 
-            "--no-cache-dir", 
-            wheel_url
-        ])
-    except Exception:
-        # Fallback if Streamlit is using Python 3.11 instead of 3.10
-        wheel_url_311 = "https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow_cpu-2.12.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
-        subprocess.check_call([
-            sys.executable, "-m", "pip", "install", 
-            "--no-cache-dir", 
-            wheel_url_311
-        ])
-        
-    import tensorflow as tf
-    
 import streamlit as st
+import tensorflow as tf
 import keras
 import pickle
 import json
