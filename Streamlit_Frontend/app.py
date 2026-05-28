@@ -1,6 +1,6 @@
 import streamlit as st
 import tensorflow as tf
-import keras
+from tensorflow import keras
 import pickle
 import json
 import re
