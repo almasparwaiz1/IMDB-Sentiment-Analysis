@@ -1,6 +1,21 @@
+import os
+import sys
+import subprocess
+
+# Force-install a lightweight TensorFlow binary before the rest of the app loads
+try:
+    import tensorflow as tf
+except ImportError:
+    subprocess.check_call([
+        sys.executable, "-m", "pip", "install", 
+        "--no-cache-dir", 
+        "--only-binary=:all:", 
+        "tensorflow-cpu==2.11.0"
+    ])
+    import tensorflow as tf
+    
 import streamlit as st
-import tensorflow as tf
-from tensorflow import keras
+import keras
 import pickle
 import json
 import re
