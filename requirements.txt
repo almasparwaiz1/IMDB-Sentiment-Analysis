@@ -1,4 +1,5 @@
 streamlit
+--no-binary tensorflow-cpu
 tensorflow-cpu==2.15.0
 numpy==1.26.4
 nltk==3.8.1
