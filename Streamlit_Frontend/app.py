@@ -22,7 +22,7 @@ st.set_page_config(
 )
 
 # --- Path Configurations ---
-BASE_DIR = r"F:\AI and Data Science Projects\IMDB Sentiment Analysis\Streamlit_Frontend"
+BASE_DIR = r"Streamlit_Frontend"
 
 MODEL_PATH = os.path.join(BASE_DIR, 'best_tuned_sentiment_model.keras')
 TOKENIZER_PATH = os.path.join(BASE_DIR, 'tokenizer.pickle')
