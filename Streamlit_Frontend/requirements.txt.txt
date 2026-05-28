@@ -1,6 +1,6 @@
-streamlit==1.31.1
-tensorflow-cpu==2.15.0
-numpy==1.26.4
-nltk==3.8.1
-h5py==3.10.0
-protobuf==4.25.3
+streamlit
+tensorflow
+numpy
+nltk
+h5py
+protobuf
