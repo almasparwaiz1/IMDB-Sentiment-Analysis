@@ -1,8 +1,8 @@
-# 🎬 Movie Review Sentiment Analyzer
+## 🎬 Movie Review Sentiment Analyzer
 
 A professional AI-powered **Movie Review Sentiment Analysis Web App** built with **Streamlit, TensorFlow, and Keras** that predicts whether a movie review is **Positive** or **Negative** using Deep Learning and NLP techniques.
 
-## Features
+### Features
 
 * Real-time sentiment prediction
 * Deep Learning powered classification
@@ -13,11 +13,11 @@ A professional AI-powered **Movie Review Sentiment Analysis Web App** built with
 * Confidence score visualization
 * Fully responsive interface
 
-## Live Demo
+### Live Demo
 
 https://imdb-sentiment-analysis-appi.streamlit.app/
 
-## Tech Stack
+### Tech Stack
 
 * Python
 * Streamlit
@@ -26,7 +26,7 @@ https://imdb-sentiment-analysis-appi.streamlit.app/
 * NumPy
 * Pickle
 
-## NLP Pipeline
+### NLP Pipeline
 
 * Text Cleaning
 * HTML Tag Removal
@@ -35,7 +35,7 @@ https://imdb-sentiment-analysis-appi.streamlit.app/
 * Lemmatization
 * Sequence Padding
 
-## Model Capabilities
+### Model Capabilities
 
 The model analyzes movie reviews and predicts:
 
@@ -45,14 +45,14 @@ The model analyzes movie reviews and predicts:
 with probability confidence scores in real time.
 
 
-## Highlights
+### Highlights
 
 * Professional production-ready UI
 * Optimized model loading architecture
 * Efficient preprocessing workflow
 * Client-ready deployment structure
 
-## Author
+### Author
 
 **Almas Parwaiz**
 AI and Data Scientist
