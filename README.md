@@ -44,7 +44,6 @@ The model analyzes movie reviews and predicts:
 
 with probability confidence scores in real time.
 
-
 ### Highlights
 
 * Professional production-ready UI
